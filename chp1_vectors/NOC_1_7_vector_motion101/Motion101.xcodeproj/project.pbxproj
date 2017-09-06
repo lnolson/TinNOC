@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C34F7C11F1FFC270027D535 /* Tin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C34F7C01F1FFC1C0027D535 /* Tin.framework */; };
+		5C34F7C21F1FFC270027D535 /* Tin.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5C34F7C01F1FFC1C0027D535 /* Tin.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5C34F7C61F2123AE0027D535 /* Mover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C34F7C51F2123AE0027D535 /* Mover.swift */; };
+		5CCC47F71E5D4D29007C3EA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCC47F61E5D4D29007C3EA3 /* AppDelegate.swift */; };
+		5CCC47F91E5D4D29007C3EA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCC47F81E5D4D29007C3EA3 /* ViewController.swift */; };
+		5CCC47FB1E5D4D29007C3EA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CCC47FA1E5D4D29007C3EA3 /* Assets.xcassets */; };
+		5CCC47FE1E5D4D29007C3EA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CCC47FC1E5D4D29007C3EA3 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5C34F7BF1F1FFBED0027D535 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				5C34F7C21F1FFC270027D535 /* Tin.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5C34F7C01F1FFC1C0027D535 /* Tin.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Tin.framework; sourceTree = "<group>"; };
+		5C34F7C51F2123AE0027D535 /* Mover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mover.swift; sourceTree = "<group>"; };
+		5CCC47F31E5D4D29007C3EA3 /* Motion101.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Motion101.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CCC47F61E5D4D29007C3EA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5CCC47F81E5D4D29007C3EA3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5CCC47FA1E5D4D29007C3EA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5CCC47FD1E5D4D29007C3EA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5CCC47FF1E5D4D29007C3EA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CCC47F01E5D4D29007C3EA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C34F7C11F1FFC270027D535 /* Tin.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5CCC47EA1E5D4D29007C3EA3 = {
+			isa = PBXGroup;
+			children = (
+				5CCC47F51E5D4D29007C3EA3 /* Motion101 */,
+				5CCC47F41E5D4D29007C3EA3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5CCC47F41E5D4D29007C3EA3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CCC47F31E5D4D29007C3EA3 /* Motion101.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CCC47F51E5D4D29007C3EA3 /* Motion101 */ = {
+			isa = PBXGroup;
+			children = (
+				5CCC47F61E5D4D29007C3EA3 /* AppDelegate.swift */,
+				5CCC47F81E5D4D29007C3EA3 /* ViewController.swift */,
+				5C34F7C51F2123AE0027D535 /* Mover.swift */,
+				5CCC47FA1E5D4D29007C3EA3 /* Assets.xcassets */,
+				5CCC47FC1E5D4D29007C3EA3 /* Main.storyboard */,
+				5CCC47FF1E5D4D29007C3EA3 /* Info.plist */,
+				5C34F7C01F1FFC1C0027D535 /* Tin.framework */,
+			);
+			path = Motion101;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5CCC47F21E5D4D29007C3EA3 /* Motion101 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CCC48021E5D4D29007C3EA3 /* Build configuration list for PBXNativeTarget "Motion101" */;
+			buildPhases = (
+				5CCC47EF1E5D4D29007C3EA3 /* Sources */,
+				5CCC47F01E5D4D29007C3EA3 /* Frameworks */,
+				5CCC47F11E5D4D29007C3EA3 /* Resources */,
+				5C34F7BF1F1FFBED0027D535 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Motion101;
+			productName = DistanceDemo;
+			productReference = 5CCC47F31E5D4D29007C3EA3 /* Motion101.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CCC47EB1E5D4D29007C3EA3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = ASU;
+				TargetAttributes = {
+					5CCC47F21E5D4D29007C3EA3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = R75948WD5C;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5CCC47EE1E5D4D29007C3EA3 /* Build configuration list for PBXProject "Motion101" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5CCC47EA1E5D4D29007C3EA3;
+			productRefGroup = 5CCC47F41E5D4D29007C3EA3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CCC47F21E5D4D29007C3EA3 /* Motion101 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CCC47F11E5D4D29007C3EA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CCC47FB1E5D4D29007C3EA3 /* Assets.xcassets in Resources */,
+				5CCC47FE1E5D4D29007C3EA3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CCC47EF1E5D4D29007C3EA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CCC47F91E5D4D29007C3EA3 /* ViewController.swift in Sources */,
+				5CCC47F71E5D4D29007C3EA3 /* AppDelegate.swift in Sources */,
+				5C34F7C61F2123AE0027D535 /* Mover.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5CCC47FC1E5D4D29007C3EA3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CCC47FD1E5D4D29007C3EA3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5CCC48001E5D4D29007C3EA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5CCC48011E5D4D29007C3EA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		5CCC48031E5D4D29007C3EA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = R75948WD5C;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Motion101",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Motion101/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.asu.ame.Motion101;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		5CCC48041E5D4D29007C3EA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = R75948WD5C;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Motion101",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Motion101/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.asu.ame.Motion101;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5CCC47EE1E5D4D29007C3EA3 /* Build configuration list for PBXProject "Motion101" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CCC48001E5D4D29007C3EA3 /* Debug */,
+				5CCC48011E5D4D29007C3EA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CCC48021E5D4D29007C3EA3 /* Build configuration list for PBXNativeTarget "Motion101" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CCC48031E5D4D29007C3EA3 /* Debug */,
+				5CCC48041E5D4D29007C3EA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5CCC47EB1E5D4D29007C3EA3 /* Project object */;
+}

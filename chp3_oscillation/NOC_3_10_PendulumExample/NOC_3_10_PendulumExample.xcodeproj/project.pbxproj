@@ -1,0 +1,345 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C2C8CE31F75CA0B007BDB64 /* Pendulum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2C8CE21F75CA0B007BDB64 /* Pendulum.swift */; };
+		5C97FCAB1F4E31960025C830 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C97FCAA1F4E31960025C830 /* AppDelegate.swift */; };
+		5C97FCAD1F4E31960025C830 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C97FCAC1F4E31960025C830 /* ViewController.swift */; };
+		5C97FCAF1F4E31960025C830 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C97FCAE1F4E31960025C830 /* Assets.xcassets */; };
+		5C97FCB21F4E31960025C830 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C97FCB01F4E31960025C830 /* Main.storyboard */; };
+		5C97FCBB1F4E31BC0025C830 /* Tin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C97FCBA1F4E31B30025C830 /* Tin.framework */; };
+		5C97FCBC1F4E31BC0025C830 /* Tin.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5C97FCBA1F4E31B30025C830 /* Tin.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5C97FCBD1F4E31BC0025C830 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				5C97FCBC1F4E31BC0025C830 /* Tin.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5C2C8CE21F75CA0B007BDB64 /* Pendulum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pendulum.swift; sourceTree = "<group>"; };
+		5C97FCA71F4E31960025C830 /* NOC_3_10_PendulumExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NOC_3_10_PendulumExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C97FCAA1F4E31960025C830 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5C97FCAC1F4E31960025C830 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5C97FCAE1F4E31960025C830 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5C97FCB11F4E31960025C830 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5C97FCB31F4E31960025C830 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C97FCB41F4E31960025C830 /* NOC_3_10_PendulumExample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NOC_3_10_PendulumExample.entitlements; sourceTree = "<group>"; };
+		5C97FCBA1F4E31B30025C830 /* Tin.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Tin.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C97FCA41F4E31960025C830 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C97FCBB1F4E31BC0025C830 /* Tin.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C97FC9E1F4E31960025C830 = {
+			isa = PBXGroup;
+			children = (
+				5C97FCA91F4E31960025C830 /* NOC_3_10_PendulumExample */,
+				5C97FCA81F4E31960025C830 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5C97FCA81F4E31960025C830 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C97FCA71F4E31960025C830 /* NOC_3_10_PendulumExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C97FCA91F4E31960025C830 /* NOC_3_10_PendulumExample */ = {
+			isa = PBXGroup;
+			children = (
+				5C97FCAA1F4E31960025C830 /* AppDelegate.swift */,
+				5C97FCAC1F4E31960025C830 /* ViewController.swift */,
+				5C2C8CE21F75CA0B007BDB64 /* Pendulum.swift */,
+				5C97FCAE1F4E31960025C830 /* Assets.xcassets */,
+				5C97FCB01F4E31960025C830 /* Main.storyboard */,
+				5C97FCB31F4E31960025C830 /* Info.plist */,
+				5C97FCB41F4E31960025C830 /* NOC_3_10_PendulumExample.entitlements */,
+				5C97FCBA1F4E31B30025C830 /* Tin.framework */,
+			);
+			path = NOC_3_10_PendulumExample;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C97FCA61F4E31960025C830 /* NOC_3_10_PendulumExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C97FCB71F4E31960025C830 /* Build configuration list for PBXNativeTarget "NOC_3_10_PendulumExample" */;
+			buildPhases = (
+				5C97FCA31F4E31960025C830 /* Sources */,
+				5C97FCA41F4E31960025C830 /* Frameworks */,
+				5C97FCA51F4E31960025C830 /* Resources */,
+				5C97FCBD1F4E31BC0025C830 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NOC_3_10_PendulumExample;
+			productName = NOC_3_10_PendulumExample;
+			productReference = 5C97FCA71F4E31960025C830 /* NOC_3_10_PendulumExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C97FC9F1F4E31960025C830 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = ASU;
+				TargetAttributes = {
+					5C97FCA61F4E31960025C830 = {
+						CreatedOnToolsVersion = 9.0;
+					};
+				};
+			};
+			buildConfigurationList = 5C97FCA21F4E31960025C830 /* Build configuration list for PBXProject "NOC_3_10_PendulumExample" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5C97FC9E1F4E31960025C830;
+			productRefGroup = 5C97FCA81F4E31960025C830 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C97FCA61F4E31960025C830 /* NOC_3_10_PendulumExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C97FCA51F4E31960025C830 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C97FCAF1F4E31960025C830 /* Assets.xcassets in Resources */,
+				5C97FCB21F4E31960025C830 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C97FCA31F4E31960025C830 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C2C8CE31F75CA0B007BDB64 /* Pendulum.swift in Sources */,
+				5C97FCAD1F4E31960025C830 /* ViewController.swift in Sources */,
+				5C97FCAB1F4E31960025C830 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5C97FCB01F4E31960025C830 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C97FCB11F4E31960025C830 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5C97FCB51F4E31960025C830 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5C97FCB61F4E31960025C830 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		5C97FCB81F4E31960025C830 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NOC_3_10_PendulumExample/NOC_3_10_PendulumExample.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NOC_3_10_PendulumExample",
+				);
+				INFOPLIST_FILE = NOC_3_10_PendulumExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.asu.ame.NOC-3-10-PendulumExample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		5C97FCB91F4E31960025C830 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NOC_3_10_PendulumExample/NOC_3_10_PendulumExample.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NOC_3_10_PendulumExample",
+				);
+				INFOPLIST_FILE = NOC_3_10_PendulumExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.asu.ame.NOC-3-10-PendulumExample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C97FCA21F4E31960025C830 /* Build configuration list for PBXProject "NOC_3_10_PendulumExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C97FCB51F4E31960025C830 /* Debug */,
+				5C97FCB61F4E31960025C830 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C97FCB71F4E31960025C830 /* Build configuration list for PBXNativeTarget "NOC_3_10_PendulumExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C97FCB81F4E31960025C830 /* Debug */,
+				5C97FCB91F4E31960025C830 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C97FC9F1F4E31960025C830 /* Project object */;
+}

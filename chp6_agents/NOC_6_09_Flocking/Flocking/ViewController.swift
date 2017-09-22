@@ -27,6 +27,8 @@ class ViewController: TController {
     
     
     override func mouseDragged(with event: NSEvent) {
+        super.mouseDragged(with: event)
+        print("mouse: \(tin.mouseX),\(tin.mouseY)")
         scene.addBoid(x: tin.mouseX, y: tin.mouseY)
     }
     

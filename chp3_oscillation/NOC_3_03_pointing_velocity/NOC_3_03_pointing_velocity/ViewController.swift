@@ -1,8 +1,10 @@
 //
 //  ViewController.swift
-//  Blank
+//  
 //
-//
+// The Nature of Code
+// Daniel Shiffman
+// http://natureofcode.com
 
 import Cocoa
 import Tin

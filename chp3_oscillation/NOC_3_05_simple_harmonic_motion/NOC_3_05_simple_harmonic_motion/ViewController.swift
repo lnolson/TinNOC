@@ -26,7 +26,7 @@ class ViewController: TController {
 class Scene: TScene {
     
     var angle = 0.0
-    var aVelocity = 0.
+    var aVelocity = 0.05
     
     override func setup() {
 

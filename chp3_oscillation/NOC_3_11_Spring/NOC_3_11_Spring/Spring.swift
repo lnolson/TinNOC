@@ -25,7 +25,7 @@ class Spring {
     init(x: Double, y: Double, length: Double) {
         anchor = TVector2(x: x, y: y)
         len = length
-        k = 0.2
+        k = 0.4
     }
     
     
@@ -41,7 +41,7 @@ class Spring {
         // F = k * stretch
         force.normalize()
         force = force * (-1.0 * k * stretch)
-        b.applyForce(force: force);
+        b.applyForce(force: force)
     }
     
     

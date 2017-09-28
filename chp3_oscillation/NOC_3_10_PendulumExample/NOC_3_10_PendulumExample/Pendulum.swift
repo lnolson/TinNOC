@@ -35,7 +35,7 @@ class Pendulum {
         angle = Double.pi / 4.0
         aVelocity = 0.0
         aAcceleration = 0.0
-        damping = 0.995
+        damping = 0.999
         ballr = 48.0
         dragging = false
     }

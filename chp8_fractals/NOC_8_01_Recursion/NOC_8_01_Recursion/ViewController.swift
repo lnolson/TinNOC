@@ -3,6 +3,10 @@
 //  NOC_8_01_Recursion
 //
 //
+//
+// The Nature of Code
+// Daniel Shiffman
+// http://natureofcode.com
 
 import Cocoa
 import Tin

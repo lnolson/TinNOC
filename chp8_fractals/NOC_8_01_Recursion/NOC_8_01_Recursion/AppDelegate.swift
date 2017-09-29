@@ -2,9 +2,10 @@
 //  AppDelegate.swift
 //  NOC_8_01_Recursion
 //
-//  Created by Loren Olson on 9/28/17.
-//  Copyright © 2017 ASU. All rights reserved.
 //
+// The Nature of Code
+// Daniel Shiffman
+// http://natureofcode.com
 
 import Cocoa
 

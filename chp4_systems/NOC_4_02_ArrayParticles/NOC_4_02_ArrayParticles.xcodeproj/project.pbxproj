@@ -296,7 +296,7 @@
 				);
 				INFOPLIST_FILE = NOC_4_02_ArrayParticles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "edu.asu.ame.NOC-4-01-SingleParticle";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.asu.ame.NOC-4-02-ArrayParticles";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 			};
@@ -315,7 +315,7 @@
 				);
 				INFOPLIST_FILE = NOC_4_02_ArrayParticles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "edu.asu.ame.NOC-4-01-SingleParticle";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.asu.ame.NOC-4-02-ArrayParticles";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 			};

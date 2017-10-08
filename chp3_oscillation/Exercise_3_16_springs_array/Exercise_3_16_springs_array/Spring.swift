@@ -27,7 +27,7 @@ class Spring {
         self.a = a
         self.b = b
         len = length
-        k = 0.2
+        k = 2.0
     }
     
     

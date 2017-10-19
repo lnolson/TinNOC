@@ -2,8 +2,6 @@
 //  AppDelegate.swift
 //  Seek_trail
 //
-//  Created by Loren Olson on 5/26/17.
-//  Copyright © 2017 ASU. All rights reserved.
 //
 
 import Cocoa

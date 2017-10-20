@@ -2,9 +2,6 @@
 //  AppDelegate.swift
 //  NOC_6_01_Seek
 //
-//  Created by Loren Olson on 10/19/17.
-//  Copyright © 2017 ASU. All rights reserved.
-//
 
 import Cocoa
 

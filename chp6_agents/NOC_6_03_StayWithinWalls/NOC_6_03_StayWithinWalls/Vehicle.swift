@@ -1,13 +1,12 @@
 //
 //  Vehicle.swift
-//  NOC_6_02_Arrive
+//  NOC_6_03
 //
 //
 // The Nature of Code
 // Daniel Shiffman
 // http://natureofcode.com
 
-// Seek_Arrive
 
 // The "Vehicle" class
 

@@ -35,6 +35,14 @@ class ViewController: TController {
     override func mouseUp(with event: NSEvent) {
         scene.mousePressed()
     }
+    
+    
+    override var acceptsFirstResponder: Bool { return true }
+    
+    
+    override func keyUp(with event: NSEvent) {
+        scene.keyPressed()
+    }
 
 }
 
@@ -44,6 +52,7 @@ class Scene: TScene {
     var debug = true
     var flowField: FlowField!
     var vehicles: [Vehicle] = []
+    var font = TFont(fontName: "Helvetica Neue Condensed Black", ofSize: 16.0)
 
     
     override func setup() {
@@ -56,6 +65,8 @@ class Scene: TScene {
             let v = Vehicle(position: p, speed: ms, force: mf)
             vehicles.append(v)
         }
+        
+        font.horizontalAlignment = .left
     }
     
     
@@ -70,12 +81,20 @@ class Scene: TScene {
             v.follow(flow: flowField)
             v.run()
         }
-    
+        
+        fillColor(gray: 0.0)
+        let msg = "Hit space bar to toggle debugging lines.\nClick the mouse to generate a new flow field."
+        text(message: msg, font: font, x: 10.0, y: 10.0)
     }
     
     
     func mousePressed() {
         flowField.setup()
+    }
+    
+    
+    func keyPressed() {
+        debug = !debug
     }
 }
 

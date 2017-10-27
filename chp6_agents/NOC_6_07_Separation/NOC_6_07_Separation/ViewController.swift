@@ -15,16 +15,21 @@ import Tin
 
 class ViewController: TController {
 
+    var scene: Scene!
+    
     override func viewWillAppear() {
         super.viewWillAppear()
-        
         view.window?.title = "Separation"
-        
         makeView(width: 640.0, height: 360.0)
-        let scene = Scene()
+        scene = Scene()
         present(scene: scene)
-        
         scene.view?.showStats = false
+    }
+    
+    
+    override func mouseDragged(with event: NSEvent) {
+        super.mouseDragged(with: event)
+        scene.mouseDragged()
     }
 
 }
@@ -58,6 +63,12 @@ class Scene: TScene {
         
         fillColor(gray: 0)
         text(message: "Drag the mouse to generate new vehicles", font: font, x: 10.0, y: 10.0)
+    }
+    
+    
+    func mouseDragged() {
+        let v = Vehicle(x: tin.mouseX, y: tin.mouseY)
+        vehicles.append(v)
     }
 }
 

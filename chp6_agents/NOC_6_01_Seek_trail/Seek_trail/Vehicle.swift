@@ -80,7 +80,7 @@ class Vehicle {
         lineWidth(1.0)
         pushState()
         translate(dx: position.x, dy: position.y)
-        Tin.rotate(by: theta)
+        rotate(by: theta)
         pathBegin()
         pathVertex(x: 0.0, y: -r * 2.0)
         pathVertex(x: -r, y: r * 2.0)

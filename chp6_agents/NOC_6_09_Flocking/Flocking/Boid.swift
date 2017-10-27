@@ -2,9 +2,12 @@
 //  Boid.swift
 //  Flocking
 //
-//  Translation from The Nature of Code, Daniel Shiffman
-//  Ch 6. Flocking
-//
+// The Nature of Code
+// Daniel Shiffman
+// http://natureofcode.com
+
+// Boid class
+// Methods for Separation, Cohesion, Alignment added
 
 import Cocoa
 import Tin
@@ -15,8 +18,8 @@ class Boid {
     var velocity: TVector2
     var acceleration: TVector2
     var r: Double
-    var maxforce: Double
-    var maxspeed: Double
+    var maxforce: Double     // Maximum steering force
+    var maxspeed: Double     // Maximum speed
     
     
     init(x: Double, y: Double) {
@@ -42,6 +45,7 @@ class Boid {
     }
     
     
+    // We accumulate a new acceleration each time based on three rules
     func flock(boids: [Boid]) {
         var sep = separate(boids: boids)
         var ali = align(boids: boids)
@@ -65,6 +69,8 @@ class Boid {
     }
     
     
+    // A method that calculates and applies a steering force towards a target
+    // STEER = DESIRED MINUS VELOCITY
     func seek(target: TVector2) -> TVector2 {
         var desired = target - position
         desired.normalize()
@@ -82,28 +88,31 @@ class Boid {
         strokeColor(gray: 0.0)
         lineWidth(1.0)
         translate(dx: position.x, dy: position.y)
-        Tin.rotate(by: theta)
+        rotate(by: theta)
         triangle(x1: 0.0, y1: -r * 2.0, x2: -r, y2: r * 2.0, x3: r, y3: r * 2.0)
         popState()
     }
     
     
+    // Wraparound
     func borders() {
         if position.x < -r {
-            position.x = Double(tin.size.width) + r
+            position.x = tin.width + r
         }
         if position.y < -r {
-            position.y = Double(tin.size.height) + r
+            position.y = tin.height + r
         }
-        if position.x > Double(tin.size.width) + r {
+        if position.x > tin.width + r {
             position.x = -r
         }
-        if position.y > Double(tin.size.height) + r {
+        if position.y > tin.height + r {
             position.y = -r
         }
     }
     
     
+    // Separation
+    // Method checks for nearby boids and steers away
     func separate(boids: [Boid]) -> TVector2 {
         let desiredseparation = 25.0
         var steer = TVector2(x: 0.0, y: 0.0)
@@ -133,6 +142,8 @@ class Boid {
     }
     
     
+    // Alignment
+    // For every nearby boid in the system, calculate the average velocity
     func align(boids: [Boid]) -> TVector2 {
         let neighbordist = 50.0
         var sum = TVector2()
@@ -158,6 +169,8 @@ class Boid {
     }
     
     
+    // Cohesion
+    // For the average position (i.e. center) of all nearby boids, calculate steering vector towards that position
     func cohesion(boids: [Boid]) -> TVector2 {
         let neighbordist = 50.0
         var sum = TVector2()

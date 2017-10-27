@@ -2,9 +2,12 @@
 //  Flock.swift
 //  Flocking
 //
-//
-//  Translation from The Nature of Code, Daniel Shiffman
-//  Ch 6. Flocking
+// The Nature of Code
+// Daniel Shiffman
+// http://natureofcode.com
+
+// Flock class
+// Does very little, simply manages the Array of all the boids
 
 import Cocoa
 import Tin

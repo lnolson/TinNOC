@@ -50,7 +50,8 @@ class Scene: TScene {
         drawVector(v: v, pos: centerLoc, scayl: 1.0)
         drawVector(v: xaxis, pos: centerLoc, scayl: 1.0)
         
-        let delta = v.angleBetween(b: xaxis)
+        //let delta = v.angleBetween(b: xaxis)
+        let delta = TVector2.angleBetween(v1: v, v2: xaxis)
         let deltaInDegrees = toDegrees(radians: delta)
         let msg = String(format: "%4.2f degrees\n%1.3f radians", arguments: [deltaInDegrees, delta])
         

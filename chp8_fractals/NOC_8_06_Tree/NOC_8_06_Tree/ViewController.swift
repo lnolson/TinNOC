@@ -1,0 +1,75 @@
+//
+//  ViewController.swift
+//  NOC_8_06_Tree
+//
+// The Nature of Code
+// Daniel Shiffman
+// http://natureofcode.com
+
+// Recursive Tree
+// Renders a simple tree-like structure via recursion
+// Branching angle calculated as a function of horizontal mouse position
+
+
+
+import Cocoa
+import Tin
+
+class ViewController: TController {
+
+    var scene: Scene!
+    
+    override func viewWillAppear() {
+        view.window?.title = "Tree"
+        makeView(width: 800.0, height: 800.0)
+        scene = Scene()
+        present(scene: scene)
+        scene.view?.showStats = false
+    }
+
+}
+
+
+class Scene: TScene {
+    
+    var theta = 0.0
+    
+    override func setup() {
+    }
+    
+    override func update() {
+        background(gray: 1.0)
+        // Let's pick an angle 0 to 90 degrees based on the mouse position
+        theta = remap(value: tin.mouseX, start1: 0, stop1: tin.width, start2: 0, stop2: .pi/2)
+        
+        translate(dx: tin.midX, dy: 0)
+        strokeColor(gray: 0)
+        branch(len: 240)
+    }
+    
+    
+    func branch(len: Double) {
+        lineWidth(2)
+        
+        line(x1: 0, y1: 0, x2: 0, y2: len)
+        // Move to the end of that line
+        translate(dx: 0, dy: len)
+        
+        let newlen = len * 0.66
+        // All recursive functions must have an exit condition!!!!
+        // Here, ours is when the length of the branch is 2 pixels or less
+        if newlen > 2 {
+            pushState()
+            rotate(by: theta)
+            branch(len: newlen)
+            popState()
+            
+            pushState()
+            rotate(by: -theta)
+            branch(len: newlen)
+            popState()
+        }
+    }
+    
+}
+

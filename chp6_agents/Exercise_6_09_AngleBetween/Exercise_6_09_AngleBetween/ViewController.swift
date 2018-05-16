@@ -50,7 +50,6 @@ class Scene: TScene {
         drawVector(v: v, pos: centerLoc, scayl: 1.0)
         drawVector(v: xaxis, pos: centerLoc, scayl: 1.0)
         
-        //let delta = v.angleBetween(b: xaxis)
         let delta = TVector2.angleBetween(v1: v, v2: xaxis)
         let deltaInDegrees = toDegrees(radians: delta)
         let msg = String(format: "%4.2f degrees\n%1.3f radians", arguments: [deltaInDegrees, delta])
@@ -79,14 +78,4 @@ class Scene: TScene {
     
 }
 
-
-extension TVector2 {
-    
-    func angleBetween(b: TVector2) -> Double {
-        let alen = magnitude
-        let blen = b.magnitude
-        let a_dot_b = dot(v: b)
-        return acos(a_dot_b / (alen * blen))
-    }
-}
 

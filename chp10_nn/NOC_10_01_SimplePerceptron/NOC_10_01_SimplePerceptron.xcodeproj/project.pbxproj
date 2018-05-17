@@ -1,0 +1,354 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5CEB317A20ACF6BB009E82F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEB317920ACF6BB009E82F6 /* AppDelegate.swift */; };
+		5CEB317C20ACF6BB009E82F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEB317B20ACF6BB009E82F6 /* ViewController.swift */; };
+		5CEB317E20ACF6BB009E82F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CEB317D20ACF6BB009E82F6 /* Assets.xcassets */; };
+		5CEB318120ACF6BB009E82F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CEB317F20ACF6BB009E82F6 /* Main.storyboard */; };
+		5CEB318A20ACF6CD009E82F6 /* Tin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CEB318920ACF6CD009E82F6 /* Tin.framework */; };
+		5CEB318B20ACF6DC009E82F6 /* Tin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CEB318920ACF6CD009E82F6 /* Tin.framework */; };
+		5CEB318C20ACF6DC009E82F6 /* Tin.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5CEB318920ACF6CD009E82F6 /* Tin.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5CEB318F20ACF7F3009E82F6 /* Perceptron.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEB318E20ACF7F3009E82F6 /* Perceptron.swift */; };
+		5CEB319120ACFB18009E82F6 /* Trainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEB319020ACFB18009E82F6 /* Trainer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5CEB318D20ACF6DC009E82F6 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				5CEB318C20ACF6DC009E82F6 /* Tin.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5CEB317620ACF6BB009E82F6 /* NOC_10_01_SimplePerceptron.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NOC_10_01_SimplePerceptron.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CEB317920ACF6BB009E82F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5CEB317B20ACF6BB009E82F6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5CEB317D20ACF6BB009E82F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5CEB318020ACF6BB009E82F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5CEB318220ACF6BB009E82F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CEB318320ACF6BB009E82F6 /* NOC_10_01_SimplePerceptron.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NOC_10_01_SimplePerceptron.entitlements; sourceTree = "<group>"; };
+		5CEB318920ACF6CD009E82F6 /* Tin.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Tin.framework; sourceTree = "<group>"; };
+		5CEB318E20ACF7F3009E82F6 /* Perceptron.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Perceptron.swift; sourceTree = "<group>"; };
+		5CEB319020ACFB18009E82F6 /* Trainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trainer.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CEB317320ACF6BB009E82F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CEB318B20ACF6DC009E82F6 /* Tin.framework in Frameworks */,
+				5CEB318A20ACF6CD009E82F6 /* Tin.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5CEB316D20ACF6BB009E82F6 = {
+			isa = PBXGroup;
+			children = (
+				5CEB317820ACF6BB009E82F6 /* NOC_10_01_SimplePerceptron */,
+				5CEB317720ACF6BB009E82F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5CEB317720ACF6BB009E82F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CEB317620ACF6BB009E82F6 /* NOC_10_01_SimplePerceptron.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CEB317820ACF6BB009E82F6 /* NOC_10_01_SimplePerceptron */ = {
+			isa = PBXGroup;
+			children = (
+				5CEB317920ACF6BB009E82F6 /* AppDelegate.swift */,
+				5CEB317B20ACF6BB009E82F6 /* ViewController.swift */,
+				5CEB318E20ACF7F3009E82F6 /* Perceptron.swift */,
+				5CEB319020ACFB18009E82F6 /* Trainer.swift */,
+				5CEB317D20ACF6BB009E82F6 /* Assets.xcassets */,
+				5CEB317F20ACF6BB009E82F6 /* Main.storyboard */,
+				5CEB318220ACF6BB009E82F6 /* Info.plist */,
+				5CEB318920ACF6CD009E82F6 /* Tin.framework */,
+				5CEB318320ACF6BB009E82F6 /* NOC_10_01_SimplePerceptron.entitlements */,
+			);
+			path = NOC_10_01_SimplePerceptron;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5CEB317520ACF6BB009E82F6 /* NOC_10_01_SimplePerceptron */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CEB318620ACF6BB009E82F6 /* Build configuration list for PBXNativeTarget "NOC_10_01_SimplePerceptron" */;
+			buildPhases = (
+				5CEB317220ACF6BB009E82F6 /* Sources */,
+				5CEB317320ACF6BB009E82F6 /* Frameworks */,
+				5CEB317420ACF6BB009E82F6 /* Resources */,
+				5CEB318D20ACF6DC009E82F6 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NOC_10_01_SimplePerceptron;
+			productName = NOC_10_01_SimplePerceptron;
+			productReference = 5CEB317620ACF6BB009E82F6 /* NOC_10_01_SimplePerceptron.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CEB316E20ACF6BB009E82F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = ASU;
+				TargetAttributes = {
+					5CEB317520ACF6BB009E82F6 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5CEB317120ACF6BB009E82F6 /* Build configuration list for PBXProject "NOC_10_01_SimplePerceptron" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5CEB316D20ACF6BB009E82F6;
+			productRefGroup = 5CEB317720ACF6BB009E82F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CEB317520ACF6BB009E82F6 /* NOC_10_01_SimplePerceptron */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CEB317420ACF6BB009E82F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CEB317E20ACF6BB009E82F6 /* Assets.xcassets in Resources */,
+				5CEB318120ACF6BB009E82F6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CEB317220ACF6BB009E82F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CEB317C20ACF6BB009E82F6 /* ViewController.swift in Sources */,
+				5CEB319120ACFB18009E82F6 /* Trainer.swift in Sources */,
+				5CEB318F20ACF7F3009E82F6 /* Perceptron.swift in Sources */,
+				5CEB317A20ACF6BB009E82F6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5CEB317F20ACF6BB009E82F6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CEB318020ACF6BB009E82F6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5CEB318420ACF6BB009E82F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5CEB318520ACF6BB009E82F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		5CEB318720ACF6BB009E82F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NOC_10_01_SimplePerceptron/NOC_10_01_SimplePerceptron.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NOC_10_01_SimplePerceptron",
+				);
+				INFOPLIST_FILE = NOC_10_01_SimplePerceptron/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.asu.ame.NOC-10-01-SimplePerceptron";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		5CEB318820ACF6BB009E82F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NOC_10_01_SimplePerceptron/NOC_10_01_SimplePerceptron.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NOC_10_01_SimplePerceptron",
+				);
+				INFOPLIST_FILE = NOC_10_01_SimplePerceptron/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.asu.ame.NOC-10-01-SimplePerceptron";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5CEB317120ACF6BB009E82F6 /* Build configuration list for PBXProject "NOC_10_01_SimplePerceptron" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CEB318420ACF6BB009E82F6 /* Debug */,
+				5CEB318520ACF6BB009E82F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CEB318620ACF6BB009E82F6 /* Build configuration list for PBXNativeTarget "NOC_10_01_SimplePerceptron" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CEB318720ACF6BB009E82F6 /* Debug */,
+				5CEB318820ACF6BB009E82F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5CEB316E20ACF6BB009E82F6 /* Project object */;
+}

@@ -31,7 +31,7 @@
 
 /* Begin PBXFileReference section */
 		5CAC16041E8B8DFA00E35BF6 /* Tin.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Tin.framework; sourceTree = "<group>"; };
-		5CCC47F31E5D4D29007C3EA3 /* ImageDemo1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = ImageDemo1.app; path = BouncingBall_NoVectors.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CCC47F31E5D4D29007C3EA3 /* BouncingBall_NoVectors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BouncingBall_NoVectors.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CCC47F61E5D4D29007C3EA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5CCC47F81E5D4D29007C3EA3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5CCC47FA1E5D4D29007C3EA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -62,7 +62,7 @@
 		5CCC47F41E5D4D29007C3EA3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5CCC47F31E5D4D29007C3EA3 /* ImageDemo1.app */,
+				5CCC47F31E5D4D29007C3EA3 /* BouncingBall_NoVectors.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -98,7 +98,7 @@
 			);
 			name = BouncingBall_NoVectors;
 			productName = DistanceDemo;
-			productReference = 5CCC47F31E5D4D29007C3EA3 /* ImageDemo1.app */;
+			productReference = 5CCC47F31E5D4D29007C3EA3 /* BouncingBall_NoVectors.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -274,10 +274,10 @@
 				);
 				INFOPLIST_FILE = BouncingBall_NoVectors/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.asu.ame.BouncingBall-NoVectors";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -293,10 +293,10 @@
 				);
 				INFOPLIST_FILE = BouncingBall_NoVectors/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.asu.ame.BouncingBall-NoVectors";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};

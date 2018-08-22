@@ -33,7 +33,7 @@ class Scene: TScene {
     }
     
     override func update() {
-        if tin.frameCount == 2 {
+        if tin.frameCount <= 2 {
             background(gray: 1.0)
         }
         

@@ -22,7 +22,7 @@ class Walker {
     
     
     func step() {
-        let choice = Int(TRandom.next(max: 4.0))
+        let choice = Int(random(max: 4.0))
         
         if choice == 0 {
             x += 1.0
@@ -37,8 +37,8 @@ class Walker {
             y -= 1.0
         }
         
-        x = constrain(value: x, min: 0.0, max: Double(tin.size.width))
-        y = constrain(value: y, min: 0.0, max: Double(tin.size.height))
+        x = constrain(value: x, min: 0.0, max: tin.width)
+        y = constrain(value: y, min: 0.0, max: tin.height)
     }
     
     func render() {

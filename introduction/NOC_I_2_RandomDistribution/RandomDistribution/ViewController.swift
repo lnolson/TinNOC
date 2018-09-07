@@ -30,7 +30,7 @@ class Scene: TScene {
     var randomCounts: [Int] = []
     
     override func setup() {
-        for _ in 0...19 {
+        for _ in 0...99 {
             randomCounts.append(0)
         }
     }
@@ -39,7 +39,7 @@ class Scene: TScene {
         background(gray: 1.0)
         
         // Pick a random number and increase the count
-        let index = Int(TRandom.next(min: 0.0, max: Double(randomCounts.count)))
+        let index = Int(random(min: 0.0, max: Double(randomCounts.count)))
         randomCounts[index] += 1
         
         strokeColor(gray: 0.0)

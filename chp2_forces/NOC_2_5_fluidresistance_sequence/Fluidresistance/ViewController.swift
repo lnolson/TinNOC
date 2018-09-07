@@ -49,7 +49,7 @@ class Scene: TScene {
     override func setup() {
         reset()
         
-        liquid = Liquid(x: 0.0, y: 0.0, w: Double(tin.size.width), h: Double(tin.size.height)/2.0, c: 0.1)
+        liquid = Liquid(x: 0.0, y: 0.0, w: tin.width, h: tin.height / 2.0, c: 0.1)
     }
     
     
@@ -79,9 +79,9 @@ class Scene: TScene {
     
     func reset() {
         movers.removeAll()
-        let y = Double(tin.size.height)
+        let y = tin.height
         for i in 1...5 {
-            movers.append( Mover(mass: TRandom.next(min: 0.5 * 2.25, max: 3.0 * 2.25), x: 20.0 * 2.25 + Double(i) * 40.0 * 2.25, y: y) )
+            movers.append( Mover(mass: random(min: 0.5 * 2.25, max: 3.0 * 2.25), x: 20.0 * 2.25 + Double(i) * 40.0 * 2.25, y: y) )
         }
     }
 }

@@ -51,7 +51,7 @@ class Scene: TScene {
     
     override func setup() {
         for _ in 0 ..< 10 {
-            let m = Mover(mass: TRandom.next(min: 0.1, max: 2.0), x: TRandom.next(max: Double(tin.size.width)), y: TRandom.next(max:Double(tin.size.height)))
+            let m = Mover(mass: random(min: 0.1, max: 2.0), x: random(max: tin.width), y: random(max: tin.height))
             movers.append(m)
         }
     }

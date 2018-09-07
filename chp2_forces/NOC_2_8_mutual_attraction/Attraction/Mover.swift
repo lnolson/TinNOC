@@ -50,17 +50,17 @@ class Mover {
     
     
     func checkEdges() {
-        if position.x > Double(tin.size.width) {
-            position.x = Double(tin.size.width);
-            velocity.x *= -1.0;
-        } else if (position.x < 0.0) {
-            velocity.x *= -1.0;
-            position.x = 0.0;
+        if position.x > tin.width {
+            position.x = tin.width
+            velocity.x *= -1.0
+        } else if position.x < 0.0 {
+            velocity.x *= -1.0
+            position.x = 0.0
         }
         
-        if (position.y < 0.0) {
-            velocity.y *= -1.0;
-            position.y = 0.0;
+        if position.y < 0.0 {
+            velocity.y *= -1.0
+            position.y = 0.0
         }
     }
     

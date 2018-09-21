@@ -15,8 +15,8 @@ class Oscillator {
     
     init() {
         angle = TVector2()
-        velocity = TVector2(x: TRandom.next(min: -0.05, max: 0.05), y: TRandom.next(min: -0.05, max: 0.05))
-        amplitude = TVector2(x: TRandom.next(min: 20.0, max: tin.width/2.0), y: TRandom.next(min: 20.0, max: tin.height/2.0))
+        velocity = TVector2(x: random(min: -0.05, max: 0.05), y: random(min: -0.05, max: 0.05))
+        amplitude = TVector2(x: random(min: 20.0, max: tin.width/2.0), y: random(min: 20.0, max: tin.height/2.0))
     }
     
     

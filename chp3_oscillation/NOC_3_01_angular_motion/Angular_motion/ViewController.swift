@@ -38,7 +38,7 @@ class Scene: TScene {
         fillColor(gray: 0.5)
         strokeColor(gray: 0.0)
         
-        translate(dx: Double(tin.size.width)/2.0, dy: Double(tin.size.height)/2.0)
+        translate(dx: tin.width / 2.0, dy: tin.height / 2.0)
         rotate(by: angle)
         lineWidth(2.0)
         line(x1: -60.0, y1: 0.0, x2: 60.0, y2: 0.0)

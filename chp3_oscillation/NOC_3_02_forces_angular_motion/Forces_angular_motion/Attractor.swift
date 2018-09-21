@@ -21,7 +21,7 @@ class Attractor {
     var g: Double
     
     init() {
-        position = TVector2(x: Double(tin.size.width)/2.0, y: Double(tin.size.height)/2.0)
+        position = TVector2(x: tin.width / 2.0, y: tin.height / 2.0)
         mass = 20.0
         g = 0.4
     }

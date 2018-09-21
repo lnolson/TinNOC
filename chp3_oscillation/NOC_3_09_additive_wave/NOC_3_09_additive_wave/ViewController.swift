@@ -54,10 +54,10 @@ class Scene: TScene {
         w = Int(tin.width) + 16
         
         for _ in 0 ..< maxwaves {
-            let a = TRandom.next(min: 10.0, max: 30.0)
+            let a = random(min: 10.0, max: 30.0)
             amplitude.append(a)
             
-            let period = TRandom.next(min: 100.0, max: 300.0)
+            let period = random(min: 100.0, max: 300.0)
             let inc = (Double.pi * 2.0 / period) * Double(xspacing)
             dx.append(inc)
         }

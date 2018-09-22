@@ -21,7 +21,7 @@ class Particle {
     
     init(location: TVector2) {
         position = location
-        velocity = TVector2(x: TRandom.next(min: -1.0, max: 1.0), y: TRandom.next(min: 1.0, max: 0.0))
+        velocity = TVector2(x: random(min: -1.0, max: 1.0), y: random(min: 1.0, max: 0.0))
         acceleration = TVector2(x: 0.0, y: -0.05)
         lifespan = 255.0
     }

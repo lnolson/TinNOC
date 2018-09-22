@@ -304,9 +304,10 @@
 				);
 				INFOPLIST_FILE = NOC_4_07_ParticleSystemForcesRepeller/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.asu.ame.NOC-4-07-ParticleSystemForcesRepeller";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -323,9 +324,10 @@
 				);
 				INFOPLIST_FILE = NOC_4_07_ParticleSystemForcesRepeller/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.asu.ame.NOC-4-07-ParticleSystemForcesRepeller";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};

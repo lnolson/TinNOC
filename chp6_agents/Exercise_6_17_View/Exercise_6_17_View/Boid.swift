@@ -26,7 +26,7 @@ class Boid {
     
     init(x: Double, y: Double) {
         acceleration = TVector2(x: 0.0, y: 0.0)
-        velocity = TVector2(x: TRandom.next(min: -1.0, max: 1.0), y: TRandom.next(min: -1.0, max: 1.0))
+        velocity = TVector2(x: random(min: -1.0, max: 1.0), y: random(min: -1.0, max: 1.0))
         position = TVector2(x: x, y: y)
         r = 3.0
         maxspeed = TRandom.next(min: 2.0, max: 3.0)

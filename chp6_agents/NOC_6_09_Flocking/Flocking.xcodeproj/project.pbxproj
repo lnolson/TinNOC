@@ -13,7 +13,6 @@
 		5CCC47F91E5D4D29007C3EA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCC47F81E5D4D29007C3EA3 /* ViewController.swift */; };
 		5CCC47FB1E5D4D29007C3EA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CCC47FA1E5D4D29007C3EA3 /* Assets.xcassets */; };
 		5CCC47FE1E5D4D29007C3EA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CCC47FC1E5D4D29007C3EA3 /* Main.storyboard */; };
-		5CCC480A1E5D4D6B007C3EA3 /* Canvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCC48091E5D4D6B007C3EA3 /* Canvas.swift */; };
 		5CF55F031E9DA254006F526D /* Flock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF55F021E9DA254006F526D /* Flock.swift */; };
 		5CF55F051E9DA2A8006F526D /* Boid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF55F041E9DA2A8006F526D /* Boid.swift */; };
 /* End PBXBuildFile section */
@@ -34,13 +33,12 @@
 
 /* Begin PBXFileReference section */
 		5C89EE3F1F4B820300F43DAF /* Tin.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Tin.framework; sourceTree = "<group>"; };
-		5CCC47F31E5D4D29007C3EA3 /* ImageDemo1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = ImageDemo1.app; path = Flocking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CCC47F31E5D4D29007C3EA3 /* Flocking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flocking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CCC47F61E5D4D29007C3EA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5CCC47F81E5D4D29007C3EA3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5CCC47FA1E5D4D29007C3EA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5CCC47FD1E5D4D29007C3EA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5CCC47FF1E5D4D29007C3EA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5CCC48091E5D4D6B007C3EA3 /* Canvas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Canvas.swift; sourceTree = "<group>"; };
 		5CF55F021E9DA254006F526D /* Flock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Flock.swift; sourceTree = "<group>"; };
 		5CF55F041E9DA2A8006F526D /* Boid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Boid.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -68,7 +66,7 @@
 		5CCC47F41E5D4D29007C3EA3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5CCC47F31E5D4D29007C3EA3 /* ImageDemo1.app */,
+				5CCC47F31E5D4D29007C3EA3 /* Flocking.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -77,7 +75,6 @@
 			isa = PBXGroup;
 			children = (
 				5CCC47F61E5D4D29007C3EA3 /* AppDelegate.swift */,
-				5CCC48091E5D4D6B007C3EA3 /* Canvas.swift */,
 				5CF55F021E9DA254006F526D /* Flock.swift */,
 				5CF55F041E9DA2A8006F526D /* Boid.swift */,
 				5CCC47F81E5D4D29007C3EA3 /* ViewController.swift */,
@@ -107,7 +104,7 @@
 			);
 			name = Flocking;
 			productName = DistanceDemo;
-			productReference = 5CCC47F31E5D4D29007C3EA3 /* ImageDemo1.app */;
+			productReference = 5CCC47F31E5D4D29007C3EA3 /* Flocking.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -164,7 +161,6 @@
 			files = (
 				5CCC47F91E5D4D29007C3EA3 /* ViewController.swift in Sources */,
 				5CF55F031E9DA254006F526D /* Flock.swift in Sources */,
-				5CCC480A1E5D4D6B007C3EA3 /* Canvas.swift in Sources */,
 				5CCC47F71E5D4D29007C3EA3 /* AppDelegate.swift in Sources */,
 				5CF55F051E9DA2A8006F526D /* Boid.swift in Sources */,
 			);
@@ -286,10 +282,10 @@
 				);
 				INFOPLIST_FILE = Flocking/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_BUNDLE_IDENTIFIER = edu.asu.ame.Flocking;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -305,10 +301,10 @@
 				);
 				INFOPLIST_FILE = Flocking/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_BUNDLE_IDENTIFIER = edu.asu.ame.Flocking;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};

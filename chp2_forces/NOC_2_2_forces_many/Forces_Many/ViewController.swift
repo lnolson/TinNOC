@@ -44,7 +44,8 @@ class Scene: TScene {
         let x = 0.0
         let y = tin.height
         for _ in 1...20 {
-            movers.append( Mover(mass: random(min: 0.1, max: 4.0), x: x, y: y) )
+            let m = Mover(mass: random(min: 0.1, max: 4.0), x: x, y: y)
+            movers.append( m )
         }
     }
     

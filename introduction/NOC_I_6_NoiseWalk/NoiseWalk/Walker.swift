@@ -12,8 +12,8 @@ import Tin
 
 
 class Walker {
-    var position: TVector2!
-    var noff: TVector2!
+    var position: TVector2
+    var noff: TVector2
     
     
     init() {

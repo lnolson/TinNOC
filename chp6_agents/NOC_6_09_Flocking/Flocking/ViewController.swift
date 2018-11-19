@@ -23,7 +23,7 @@ class ViewController: TController {
     override func viewWillAppear() {
         super.viewWillAppear()
         view.window?.title = "Flocking"
-        makeView(width: 900.0, height: 480.0)
+        makeView(width: 1920.0, height: 1000.0)
         scene = Scene()
         present(scene: scene)
         tview.showStats = false

@@ -35,7 +35,7 @@ class Vehicle {
         var separateForce = separate(vehicles: vehicles)
         let mouse = TVector2(x: tin.mouseX, y: tin.mouseY)
         var seekForce = seek(target: mouse)
-        separateForce = separateForce * 2.0
+        separateForce = separateForce * 1.0
         seekForce = seekForce * 1.0
         apply(force: separateForce)
         apply(force: seekForce)

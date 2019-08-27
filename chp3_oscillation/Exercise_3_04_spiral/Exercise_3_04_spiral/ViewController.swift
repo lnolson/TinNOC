@@ -36,8 +36,8 @@ class Scene: TScene {
     
     
     override func update() {
-        if tin.frameCount <= 2 {
-            background(gray: 1.0)
+        if tin.frameCount == 1 {
+            background(gray: 0.7)
         }
         
         // Polar to Cartesian conversion

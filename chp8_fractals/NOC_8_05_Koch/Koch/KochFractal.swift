@@ -16,7 +16,7 @@ class KochFractal {
     
     init() {
         start = TVector2(x: 0.0, y: 20.0)
-        end = TVector2(x: Double(tin.size.width), y: 20.0)
+        end = TVector2(x: tin.width, y: 20.0)
         lines = []
         count = 0
         restart()

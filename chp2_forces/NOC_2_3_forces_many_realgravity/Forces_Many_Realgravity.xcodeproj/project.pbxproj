@@ -56,7 +56,7 @@
 		5CCC47EA1E5D4D29007C3EA3 = {
 			isa = PBXGroup;
 			children = (
-				5CCC47F51E5D4D29007C3EA3 /* Forces_Many */,
+				5CCC47F51E5D4D29007C3EA3 /* Forces_Many_Realgravity */,
 				5CCC47F41E5D4D29007C3EA3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -69,7 +69,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5CCC47F51E5D4D29007C3EA3 /* Forces_Many */ = {
+		5CCC47F51E5D4D29007C3EA3 /* Forces_Many_Realgravity */ = {
 			isa = PBXGroup;
 			children = (
 				5CCC47F61E5D4D29007C3EA3 /* AppDelegate.swift */,
@@ -80,7 +80,7 @@
 				5CCC47FF1E5D4D29007C3EA3 /* Info.plist */,
 				5C34F7C01F1FFC1C0027D535 /* Tin.framework */,
 			);
-			path = Forces_Many;
+			path = Forces_Many_Realgravity;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +126,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -274,14 +275,14 @@
 				DEVELOPMENT_TEAM = R75948WD5C;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Forces_Many",
+					"$(PROJECT_DIR)/Forces_Many_Realgravity",
 				);
-				INFOPLIST_FILE = "$(SRCROOT)/Forces_Many/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Forces_Many_Realgravity/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.asu.ame.Forces-Many-Realgravity";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -293,14 +294,14 @@
 				DEVELOPMENT_TEAM = R75948WD5C;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Forces_Many",
+					"$(PROJECT_DIR)/Forces_Many_Realgravity",
 				);
-				INFOPLIST_FILE = "$(SRCROOT)/Forces_Many/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Forces_Many_Realgravity/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.asu.ame.Forces-Many-Realgravity";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};

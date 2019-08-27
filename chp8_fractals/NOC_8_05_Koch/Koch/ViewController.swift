@@ -23,7 +23,7 @@ class ViewController: TController {
         
         view.window?.title = "Koch snowflake"
         
-        makeView(width: 800.0, height: 280.0)
+        makeView(width: 1200.0, height: 480.0)
         let scene = Scene()
         present(scene: scene)
         

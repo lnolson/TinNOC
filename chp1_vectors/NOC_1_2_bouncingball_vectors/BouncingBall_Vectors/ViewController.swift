@@ -45,10 +45,10 @@ class Scene: TScene {
         // Add the current speed to the location.
         position = position + velocity
         
-        if position.x > Double(tin.size.width) || position.x < 0.0 {
+        if position.x > tin.width || position.x < 0.0 {
             velocity.x *= -1.0
         }
-        if position.y > Double(tin.size.height) || position.y < 0.0 {
+        if position.y > tin.height || position.y < 0.0 {
             velocity.y *= -1.0
         }
         

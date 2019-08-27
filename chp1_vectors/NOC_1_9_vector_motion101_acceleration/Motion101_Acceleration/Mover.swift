@@ -18,8 +18,8 @@ class Mover {
     var topspeed: Double
     
     init() {
-        let x = TRandom.next(max: Double(tin.size.width))
-        let y = TRandom.next(max: Double(tin.size.height))
+        let x = random(max: tin.width)
+        let y = random(max: tin.height)
         position = TVector2(x: x, y: y)
         velocity = TVector2(x: 0.0, y: 0.0)
         acceleration = TVector2(x: 0.0, y: 0.0)
@@ -28,8 +28,8 @@ class Mover {
     
     
     func update() {
-        acceleration = TVector2(x: TRandom.next(min: -1.0, max: 1.0), y: TRandom.next(min: -1.0, max: 1.0))
-        acceleration = acceleration * TRandom.next(max: 2.0)
+        acceleration = TVector2(x: random(min: -1.0, max: 1.0), y: random(min: -1.0, max: 1.0))
+        acceleration = acceleration * random(max: 2.0)
         
         velocity = velocity + acceleration
         velocity.limit(mag: topspeed)
@@ -46,18 +46,18 @@ class Mover {
     
     
     func checkEdges() {
-        if position.x > Double(tin.size.width) {
+        if position.x > tin.width {
             position.x = 0.0
         }
         else if position.x < 0.0 {
-            position.x = Double(tin.size.width)
+            position.x = tin.width
         }
         
-        if position.y > Double(tin.size.height) {
+        if position.y > tin.height {
             position.y = 0.0
         }
         else if position.y < 0.0 {
-            position.y = Double(tin.size.height)
+            position.y = tin.height
         }
     }
     

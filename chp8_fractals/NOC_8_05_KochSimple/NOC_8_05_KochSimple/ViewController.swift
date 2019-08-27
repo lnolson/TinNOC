@@ -20,7 +20,7 @@ class ViewController: TController {
 
     override func viewWillAppear() {
         view.window?.title = "Koch Simple"
-        makeView(width: 766.0, height: 400.0)
+        makeView(width: 1200.0, height: 600.0)
         let scene = Scene()
         present(scene: scene)
         scene.view?.showStats = false

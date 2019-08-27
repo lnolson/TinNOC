@@ -18,7 +18,7 @@ class Mover {
     var mass: Double
     
     init() {
-        position = TVector2(x: 30.0, y: Double(tin.size.height) - 30.0)
+        position = TVector2(x: 30.0, y: tin.height - 30.0)
         velocity = TVector2(x: 0.0, y: 0.0)
         acceleration = TVector2(x: 0.0, y: 0.0)
         mass = 1.0

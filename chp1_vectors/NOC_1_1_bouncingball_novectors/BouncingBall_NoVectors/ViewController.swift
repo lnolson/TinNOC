@@ -48,10 +48,10 @@ class Scene: TScene {
         x = x + xspeed
         y = y + yspeed
         
-        if x > Double(tin.size.width) || x < 0.0 {
+        if x > tin.width || x < 0.0 {
             xspeed = xspeed * -1.0
         }
-        if y > Double(tin.size.height) || y < 0.0 {
+        if y > tin.height || y < 0.0 {
             yspeed = yspeed * -1.0
         }
         

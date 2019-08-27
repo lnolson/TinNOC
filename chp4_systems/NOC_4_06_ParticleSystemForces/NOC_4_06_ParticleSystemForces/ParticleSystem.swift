@@ -38,7 +38,7 @@ class ParticleSystem {
         for p in particles {
             p.run()
             if p.isDead() {
-                if let i = particles.index(of: p) {
+                if let i = particles.firstIndex(of: p) {
                     particles.remove(at: i)
                 }
             }

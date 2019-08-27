@@ -59,8 +59,8 @@ class Scene: TScene {
         var hack = 0  // let's count just so we don't get stuck in an infinite loop by accident
         while !foundone && hack < 10000 {
             // Pick two random numbers
-            let r1 = TRandom.next(max: 1.0)
-            let r2 = TRandom.next(max: 1.0)
+            let r1 = random(max: 1.0)
+            let r2 = random(max: 1.0)
             let y = r1 * r1     // y = x*x (change for different results)
             // If r2 is valid, we'll use this one
             if r2 < y {

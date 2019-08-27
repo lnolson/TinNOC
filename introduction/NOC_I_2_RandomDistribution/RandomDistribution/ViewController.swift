@@ -30,7 +30,7 @@ class Scene: TScene {
     var randomCounts: [Int] = []
     
     override func setup() {
-        for _ in 0...99 {
+        for _ in 0...20 {
             randomCounts.append(0)
         }
     }
